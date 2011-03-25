@@ -124,6 +124,75 @@
 
     -->
 
+<changeSet id="2" author="tomek">
+<sql>
+INSERT INTO firma(skrot, nazwa, ulica, kod, miasto, nip, konto, osoba, telefon, email)
+VALUES ('ro-poz', 'Hurtownia artykułów BHP RO-POŻ', 'Hurtowa 7', '14-100', 'Ostróda', '921-10-97-403', '27249000050000451018354780', 'Dariusz Kowalski', '+4889634321', 'ropoz@gmail.com');
+</sql>
+</changeSet>
+
+<changeSet id="3" author="tomek">
+<sql>
+INSERT INTO firma(skrot, nazwa, ulica, kod, miasto, nip, konto, osoba, telefon, email)
+VALUES ('delekta', 'Hurtownia spożywcza Delekta sp. z.oo', 'Lwowska 6', '00-660', 'Warszawa', '128-10-89-300', '55109014920000000103599160', 'Krystyna Maćkowiak', '+4889634321', 'delekta@yahoo.com');
+</sql>
+</changeSet>
+
+<changeSet id="4" author="tomek">
+<sql>
+INSERT INTO firma(skrot, nazwa, ulica, kod, miasto, nip, konto, osoba, telefon, email)
+VALUES ('net-com', 'Net-Com Firma Komputerowa', 'Okopowa 4/1', '20-022', 'Lublin', '345-45-45-459', '14194010765217890820000001', 'Michał Grzegorzewki', '+48815320943', 'netcom@wp.pl');
+</sql>
+</changeSet>
+
+<changeSet id="5" author="tomek">
+<sql>
+INSERT INTO firma(skrot, nazwa, ulica, kod, miasto, nip, konto, osoba, telefon, email)
+VALUES ('art-car', 'Art-Car Auto Serwis', 'Hurtowa 7', '43-143', 'Lędziny', '234-57-77-342', '50102055581111136065200097, 'Sławomir Pestka', '+482168353 ', 'art-car1@o2.pl');
+</sql>
+</changeSet>
+
+<changeSet id="6" author="tomek">
+<sql>
+INSERT INTO firma(skrot, nazwa, ulica, kod, miasto, nip, konto, osoba, telefon, email)
+VALUES ('agena_cz.samchowe', 'Agena Części i Serwis Samochodów Francuskich', 'Mikołowska 270', '43-100', 'Tychy', '858-85-99-000', '77124014861111001013664915', 'Jolanta Grzmocińska', '89634321', 'art-car1@o2.pl');
+</sql>
+</changeSet>
+
+<changeSet id="7" author="tomek">
+<sql>
+INSERT INTO firma(skrot, nazwa, ulica, kod, miasto, nip, konto, osoba, telefon, email)
+VALUES ('romdex', 'Z.H.U.P. Romdex, 'Sobieskiego 99', '84-230', 'Wejherowo', '344-55-54-653', '43203000451170000003027290 ', 'Artut Lewandowski', '+4834634321', 'rodomex@wp.pl');
+</sql>
+</changeSet>
+
+<changeSet id="8" author="tomek">
+<sql>
+INSERT INTO firma(skrot, nazwa, ulica, kod, miasto, nip, konto, osoba, telefon, email)
+VALUES ('pracownia_sitodruku', 'Pracownia Sitodruku i Reklamy', 'Produkcyjna 3', '14-200', 'Iława', '345-65-54-576', '21203022542704100000092494 ', 'Michał Aralski', '+48896482111', 'psir@gmail.pl');
+</sql>
+</changeSet>
+
+<changeSet id="9" author="tomek">
+<sql>
+INSERT INTO firma(skrot, nazwa, ulica, kod, miasto, nip, konto, osoba, telefon, email)
+VALUES ('bevel', 'BEVEL Meble', 'Sokołowice 103C', '56-400', 'Oleśnica', '543-64-65-564', '91203000451110000001684230, 'Waldemar Wiśniewski', '+48713148891', 'info@bevel.pl');
+</sql>
+</changeSet>
+
+<changeSet id="10" author="tomek">
+<sql>
+INSERT INTO firma(skrot, nazwa, ulica, kod, miasto, nip, konto, osoba, telefon, email)
+VALUES ('prószyński_media', 'Prószyński Media Sp. z o.o.', 'Garażowa 7', '02-651', 'Warszawa', '521-32-07-472 ', '44144012990000000005373662', 'Anna Zawiązka', '89634321', 'proszynskimedia@proszynskimedia.pl');
+</sql>
+</changeSet>
+
+<changeSet id="11" author="tomek">
+<sql>
+INSERT INTO firma(skrot, nazwa, ulica, kod, miasto, nip, konto, osoba, telefon, email)
+VALUES ('decobazzar', 'Deco Bazzar', 'Kosowa 19', '66-008', 'Wilkanowo', '973-060-30-69', '25144012990000000006084141', 'Henryk Szybki', '89634321', 'info@deco.com');
+</sql>
+</changeSet>
 
 
 </databaseChangeLog>
